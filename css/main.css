@@ -1,0 +1,63 @@
+@-webkit-keyframes wheelHue {
+  from, to { background-color: hsl(324, 70%, 55%); }
+  10%      { background-color: hsl(360, 65%, 55%); }
+  20%      { background-color: hsl( 36, 80%, 55%); }
+  30%      { background-color: hsl( 72, 75%, 45%); }
+  40%      { background-color: hsl(108, 65%, 45%); }
+  50%      { background-color: hsl(144, 75%, 45%); }
+  60%      { background-color: hsl(180, 75%, 45%); }
+  70%      { background-color: hsl(216, 60%, 55%); }
+  80%      { background-color: hsl(252, 65%, 60%); }
+  90%      { background-color: hsl(288, 60%, 50%); }
+}
+
+@keyframes wheelHue {
+  from, to { background-color: hsl(324, 70%, 55%); }
+  10%      { background-color: hsl(360, 65%, 55%); }
+  20%      { background-color: hsl( 36, 80%, 55%); }
+  30%      { background-color: hsl( 72, 75%, 45%); }
+  40%      { background-color: hsl(108, 65%, 45%); }
+  50%      { background-color: hsl(144, 75%, 45%); }
+  60%      { background-color: hsl(180, 75%, 45%); }
+  70%      { background-color: hsl(216, 60%, 55%); }
+  80%      { background-color: hsl(252, 65%, 60%); }
+  90%      { background-color: hsl(288, 60%, 50%); }
+}
+
+@font-face {
+    font-family: nameFont;
+    src: url(../font/Inspira.ttf);
+}
+
+.Containers {
+  -webkit-animation: wheelHue 30s ease infinite;
+          animation: wheelHue 30s ease infinite;
+  height: 100vh;
+  background-color: hsl(324, 70%, 55%);
+  padding-top: 15%;
+}
+
+
+@supports (background-blend-mode: overlay) {
+  .Containers {
+    background-size: cover;
+    background-image: -webkit-linear-gradient(top right, white 10%, black 80%);
+    background-image: linear-gradient(to top right, white 10%, black 80%);
+    background-blend-mode: overlay;
+  }
+}
+
+body {
+  overflow: hidden;
+}
+
+.name {
+  font-family: nameFont;
+  text-align: center;
+  color: #000;
+}
+
+a, a:hover {
+  text-decoration: underline;
+  color: #333;
+}
