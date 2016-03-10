@@ -57,7 +57,11 @@ body {
   color: #000;
 }
 
-a, a:hover {
-  text-decoration: underline;
-  color: #333;
+
+a.btn-primary, a.btn-primary:hover {
+  background-color: #000;
+  color: #fff;
+  border-radius: 0px;
+  border: 0px;
+  margin-top: 40px;
 }
