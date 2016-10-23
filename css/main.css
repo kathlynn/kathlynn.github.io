@@ -304,6 +304,14 @@ img.myphoto {
   clear: both; }
   .contact p {
     font-size: 18px; }
+  .contact .btn-primary {
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 30px; }
+    .contact .btn-primary:hover, .contact .btn-primary:active, .contact .btn-primary:focus {
+      background-color: #fff;
+      color: #000; }
   .contact .testimonial-card {
     max-width: 1000px;
     background-color: #fff;
@@ -316,13 +324,5 @@ img.myphoto {
       font-size: 16px;
       font-style: italic;
       margin-top: 20px; }
-
-.btn-primary {
-  background-color: #000;
-  color: #fff;
-  font-size: 18px; }
-  .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
-    background-color: #fff;
-    color: #000; }
 
 /*# sourceMappingURL=main.css.map */
