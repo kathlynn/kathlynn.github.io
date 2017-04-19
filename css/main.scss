@@ -281,144 +281,18 @@ textarea {
     }
 }
 
-$primary-color: #000;
-
-body {
-    font-family: 'Slabo 27px', serif;
-    color: #555;
+.container {
+    background-color: rgba(#fff, 0.9);
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 60vh;
+    padding: 200px 50px;
+    font-size: 25px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
-
-h1 {
-    font-size: 3em;
-    margin-bottom: 0px;
-    color: #333;
-}
-
-h3 {
-    font-size: 1.5em;
-    color: #333;
-}
-
-img.myphoto {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-    height: 200px;
-    margin: 50px auto;
-}
-
-.summary p {
-    font-size: 20px;
-    line-height: 33px;
-}
-
-.work {
-    position: relative;
-    margin-top: 50px;
-
-    h2 { 
-        background-color: #000;
-        color: #fff;
-        margin-bottom: 0px;
-        padding: 20px 0;
-        font-weight: 700;
-    }
-
-    .work-item {
-        &.stillwell { background: url('../img/stillwell-select.jpg'); }
-        &.annesley { background: url('../img/annesley.jpg'); }
-        &.megan { background: url('../img/megan-jayne.jpg'); }
-        &.options { background: url('../img/options-education.jpg'); }
-        &.kalye { background: url('../img/kalye.jpg'); }
-        &.luis { background: url('../img/luis-penascoza.jpg'); }
-        &.plantscience { background: url('../img/plantscience.jpg'); }
-        &.dontdopretty { background: url('../img/dont-do-pretty.jpg'); }
-        
-        
-        height: 400px;
-        background-size: cover !important;
-        background-repeat: no-repeat !important;
-        background-position: center center !important;
-        position: relative;
-        
-    }
-
-    .work-logo {
-        position: absolute;
-        top: 50%;
-        width: 100%;
-        //padding: 0 40px;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-        margin-left: -15px;
-    }
-
-    .view-work {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background-color: $primary-color;
-        margin-left: -15px;
-        text-align: center;
-        display: none;
-
-        .btn-primary {
-            margin-top: 50%;
-            -webkit-transform: translateY(-50%);
-            -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-            margin-left: -15px;
-            background-color: #fff;
-            border: 5px dashed $primary-color;
-            color: #000;
-            font-size: 20px;
-        }
-    }
-    
-    .work-item:hover {
-        .view-work {
-            display: block;
-        }
-    }
-}
-
-.contact {
-    background-color: #f7f7f7;
-    padding: 100px 0;
-    clear: both;
-
-    p {
-        font-size: 18px;
-    }
-
-    .btn-primary {
-        background-color: #000;
-        color: #fff;
-        font-size: 18px;
-        margin-bottom: 30px;
-
-        &:hover, &:active, &:focus {
-            background-color: #fff;
-            color: #000;
-        }
-    }
-
-    .testimonial-card {
-        max-width: 1000px;
-        background-color: #fff;
-        margin: 0 auto;
-        padding: 20px;
-        box-shadow: 10px 10px 0px $primary-color;
-
-        p {
-            font-size: 18px;
-        }
-
-        p.from {
-            font-size: 16px;
-            font-style: italic;
-            margin-top: 20px;
-        }
-    }
-}
-
