@@ -229,4 +229,9 @@ textarea {
   font-weight: 600;
   letter-spacing: 2px; }
 
+a {
+  color: #000; }
+  a:hover, a:active, a:focus {
+    color: #dc76ab; }
+
 /*# sourceMappingURL=kathlynn.css.map */

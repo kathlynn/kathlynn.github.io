@@ -296,3 +296,11 @@ textarea {
     font-weight: 600;
     letter-spacing: 2px;
 }
+
+a {
+    color: #000;
+
+    &:hover, &:active, &:focus {
+        color: #dc76ab;
+    }
+}
