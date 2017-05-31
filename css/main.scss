@@ -281,26 +281,57 @@ textarea {
     }
 }
 
-.container {
-    background-color: rgba(#fff, 0.9);
-    margin: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 60vh;
-    padding: 200px 50px;
-    font-size: 25px;
-    font-family: "Courier New", Courier, monospace;
-    font-weight: 600;
-    letter-spacing: 2px;
+////////
+
+$dark-grey: #4a4a4a;
+$blue: #64d1ef;
+$purple: #af71bc;
+
+body {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
 }
 
 a {
-    color: #000;
+    color: $purple;
 
     &:hover, &:active, &:focus {
-        color: #dc76ab;
+        color: $dark-grey;
     }
 }
+
+.overview {
+    font-size: 48px;
+    margin-top: 10vh;
+    margin-bottom: 50px;
+
+    img {
+        display: block;
+        margin-bottom: 50px;
+
+        &:first-child {
+            margin-bottom: 150px;
+        }
+    }
+}
+
+ p.small {
+    margin-top: 50px;
+
+    a {
+        color: $dark-grey;
+    }
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  // background-color: #fff;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: -1;
+}
+
