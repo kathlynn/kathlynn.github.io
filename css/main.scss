@@ -288,12 +288,13 @@ $blue: #64d1ef;
 $purple: #af71bc;
 
 body {
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
+    padding-bottom: 200px;
 }
 
 a {
-    color: $purple;
+    color: $dark-grey;
 
     &:hover, &:active, &:focus {
         color: $dark-grey;
@@ -313,6 +314,15 @@ a {
             margin-bottom: 150px;
         }
     }
+
+    &.capabilities-overview {
+        font-size: 25px;
+        margin-bottom: 100px;
+    }
+}
+
+p {
+    line-height: 30px;
 }
 
  p.small {
@@ -333,5 +343,46 @@ a {
   background-size: cover;
   background-position: 50% 50%;
   z-index: -1;
+
+  &.capabilities-particles {
+    height: 800px;
+  }
 }
+
+.content-block {
+    margin-bottom: 100px;
+
+    &.narrow {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    figcaption {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    &.portfolio {
+        p, li {
+            font-size: 18px;
+        }
+
+        .project {
+            margin-bottom: 50px;
+        }
+    }
+
+
+}
+
+ul.experiences {
+    li {
+        list-style-image: url('../img/check-mark.png');
+    }
+}
+
+.tools b {
+    font-weight: 600;
+}
+
 

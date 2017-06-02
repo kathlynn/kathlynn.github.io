@@ -215,11 +215,12 @@ textarea {
   h3 {
     page-break-after: avoid; } }
 body {
-  font-family: 'Dosis', sans-serif;
-  font-size: 20px; }
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  padding-bottom: 200px; }
 
 a {
-  color: #af71bc; }
+  color: #4a4a4a; }
   a:hover, a:active, a:focus {
     color: #4a4a4a; }
 
@@ -232,6 +233,12 @@ a {
     margin-bottom: 50px; }
     .overview img:first-child {
       margin-bottom: 150px; }
+  .overview.capabilities-overview {
+    font-size: 25px;
+    margin-bottom: 100px; }
+
+p {
+  line-height: 30px; }
 
 p.small {
   margin-top: 50px; }
@@ -247,5 +254,26 @@ p.small {
   background-size: cover;
   background-position: 50% 50%;
   z-index: -1; }
+  #particles-js.capabilities-particles {
+    height: 800px; }
+
+.content-block {
+  margin-bottom: 100px; }
+  .content-block.narrow {
+    max-width: 800px;
+    margin: 0 auto; }
+  .content-block figcaption {
+    font-size: 15px;
+    text-align: center; }
+  .content-block.portfolio p, .content-block.portfolio li {
+    font-size: 18px; }
+  .content-block.portfolio .project {
+    margin-bottom: 50px; }
+
+ul.experiences li {
+  list-style-image: url("../img/check-mark.png"); }
+
+.tools b {
+  font-weight: 600; }
 
 /*# sourceMappingURL=kathlynn.css.map */
