@@ -272,6 +272,24 @@ p.small {
     line-height: 30px; }
   .content-block.portfolio .project {
     margin-bottom: 50px; }
+  .content-block.portfolio .nav-tabs {
+    border: 0px solid #ddd;
+    display: inline-block; }
+    .content-block.portfolio .nav-tabs > li {
+      text-align: center; }
+      .content-block.portfolio .nav-tabs > li.active > a {
+        background-color: #ddd;
+        border-bottom-color: #ddd; }
+      .content-block.portfolio .nav-tabs > li.active:after {
+        content: '';
+        position: absolute;
+        bottom: -20px;
+        margin-left: -10px;
+        display: inline-block;
+        border-top: 10px solid #ddd;
+        border-left: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid transparent; }
 
 ul.experiences li {
   list-style-image: url("../img/check-mark.png"); }
