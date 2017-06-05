@@ -238,7 +238,7 @@ a {
     margin-bottom: 100px; }
 
 p {
-  line-height: 30px; }
+  line-height: 40px; }
 
 p.small {
   margin-top: 50px; }
@@ -262,11 +262,14 @@ p.small {
   .content-block.narrow {
     max-width: 800px;
     margin: 0 auto; }
+    .content-block.narrow p {
+      margin-bottom: 25px; }
   .content-block figcaption {
     font-size: 15px;
     text-align: center; }
   .content-block.portfolio p, .content-block.portfolio li {
-    font-size: 18px; }
+    font-size: 18px;
+    line-height: 30px; }
   .content-block.portfolio .project {
     margin-bottom: 50px; }
 

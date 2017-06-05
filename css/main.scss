@@ -322,7 +322,7 @@ a {
 }
 
 p {
-    line-height: 30px;
+    line-height: 40px;
 }
 
  p.small {
@@ -355,6 +355,10 @@ p {
     &.narrow {
         max-width: 800px;
         margin: 0 auto;
+
+        p {
+            margin-bottom: 25px;
+        }
     }
 
     figcaption {
@@ -365,6 +369,7 @@ p {
     &.portfolio {
         p, li {
             font-size: 18px;
+            line-height: 30px;
         }
 
         .project {
