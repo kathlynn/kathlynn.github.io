@@ -220,19 +220,18 @@ body {
   padding-bottom: 200px; }
 
 a {
-  color: #4a4a4a; }
+  color: #4a4a4a;
+  text-decoration: underline; }
   a:hover, a:active, a:focus {
     color: #4a4a4a; }
 
 .overview {
   font-size: 48px;
-  margin-top: 10vh;
+  margin-top: 20vh;
   margin-bottom: 50px; }
   .overview img {
     display: block;
     margin-bottom: 50px; }
-    .overview img:first-child {
-      margin-bottom: 150px; }
   .overview.capabilities-overview {
     font-size: 25px;
     margin-bottom: 100px; }
@@ -249,52 +248,8 @@ p.small {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 50%;
   z-index: -1; }
-  #particles-js.capabilities-particles {
-    height: 800px; }
-
-.content-block {
-  margin-bottom: 100px; }
-  .content-block.narrow {
-    max-width: 800px;
-    margin: 0 auto; }
-    .content-block.narrow p {
-      margin-bottom: 25px; }
-  .content-block figcaption {
-    font-size: 15px;
-    text-align: center; }
-  .content-block.portfolio p, .content-block.portfolio li {
-    font-size: 18px;
-    line-height: 30px; }
-  .content-block.portfolio .project {
-    margin-bottom: 50px; }
-  .content-block.portfolio .nav-tabs {
-    border: 0px solid #ddd;
-    display: inline-block; }
-    .content-block.portfolio .nav-tabs > li {
-      text-align: center; }
-      .content-block.portfolio .nav-tabs > li.active > a {
-        background-color: #ddd;
-        border-bottom-color: #ddd; }
-      .content-block.portfolio .nav-tabs > li.active:after {
-        content: '';
-        position: absolute;
-        bottom: -20px;
-        margin-left: -10px;
-        display: inline-block;
-        border-top: 10px solid #ddd;
-        border-left: 10px solid transparent;
-        border-bottom: 10px solid transparent;
-        border-right: 10px solid transparent; }
-
-ul.experiences li {
-  list-style-image: url("../img/check-mark.png"); }
-
-.tools b {
-  font-weight: 600; }
 
 /*# sourceMappingURL=kathlynn.css.map */

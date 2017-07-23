@@ -295,6 +295,7 @@ body {
 
 a {
     color: $dark-grey;
+    text-decoration: underline;
 
     &:hover, &:active, &:focus {
         color: $dark-grey;
@@ -303,16 +304,12 @@ a {
 
 .overview {
     font-size: 48px;
-    margin-top: 10vh;
+    margin-top: 20vh;
     margin-bottom: 50px;
 
     img {
         display: block;
         margin-bottom: 50px;
-
-        &:first-child {
-            margin-bottom: 150px;
-        }
     }
 
     &.capabilities-overview {
@@ -338,85 +335,9 @@ p {
   width: 100%;
   height: 100%;
   // background-color: #fff;
-  background-image: url("");
+  // background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 50%;
+  // background-position: 50% 50%;
   z-index: -1;
-
-  &.capabilities-particles {
-    height: 800px;
-  }
 }
-
-.content-block {
-    margin-bottom: 100px;
-
-    &.narrow {
-        max-width: 800px;
-        margin: 0 auto;
-
-        p {
-            margin-bottom: 25px;
-        }
-    }
-
-    figcaption {
-        font-size: 15px;
-        text-align: center;
-    }
-
-    &.portfolio {
-        p, li {
-            font-size: 18px;
-            line-height: 30px;
-        }
-
-        .project {
-            margin-bottom: 50px;
-        }
-
-        .nav-tabs {
-            border: 0px solid #ddd;
-            display: inline-block;
-
-            >li {
-                text-align: center;
-
-                &.active >a {
-                    background-color: #ddd;
-                    border-bottom-color: #ddd;
-                }
-
-                &.active{
-                    &:after {
-                        content: '';
-                        position: absolute;
-                        bottom: -20px;
-                        margin-left: -10px;
-                        display: inline-block;
-                        border-top: 10px solid #ddd;
-                        border-left: 10px solid transparent;
-                        border-bottom: 10px solid transparent;
-                        border-right: 10px solid transparent;
-                    }
-                }
-                
-            }
-        }
-    }
-
-
-}
-
-ul.experiences {
-    li {
-        list-style-image: url('../img/check-mark.png');
-    }
-}
-
-.tools b {
-    font-weight: 600;
-}
-
-
