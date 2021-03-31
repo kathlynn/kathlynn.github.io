@@ -252,4 +252,15 @@ p.small {
   background-size: cover;
   z-index: -1; }
 
+a.portfolio-link {
+  display: inline-block;
+  margin-top: 100px;
+  text-decoration: none;
+  color: #DE74AC;
+  text-transform: uppercase;
+  border: 5px solid #DE74AC;
+  padding: 15px 30px;
+  box-shadow: 5px 5px;
+}
+
 /*# sourceMappingURL=kathlynn.css.map */
