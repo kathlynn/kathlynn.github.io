@@ -234,7 +234,7 @@ a {
     margin-bottom: 50px; }
   .overview.capabilities-overview {
     font-size: 25px;
-    margin-bottom: 100px; }
+    margin-bottom: 80px; }
 
 p {
   line-height: 40px; }
@@ -253,7 +253,7 @@ p.small {
   z-index: -1; }
 
 .portfolio-link {
-  margin: 0px auto 50px;
+  margin-bottom: 70px;
 }
 
 .portfolio-link a {
