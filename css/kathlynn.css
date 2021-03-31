@@ -252,9 +252,12 @@ p.small {
   background-size: cover;
   z-index: -1; }
 
-a.portfolio-link {
+.portfolio-link {
+  margin: 50px auto;
+}
+
+.portfolio-link a {
   display: inline-block;
-  margin-top: 100px;
   text-decoration: none;
   color: #DE74AC;
   text-transform: uppercase;
