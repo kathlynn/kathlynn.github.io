@@ -271,8 +271,9 @@ p.small {
 .portfolio-link a:hover {
    transform: translate(5px, 5px);
    box-shadow: none;
-   background-color: pink;
+   background-color: #DE74AC;
    color: white;
+   transition: all ease-in 2s;
 }
 
 /*# sourceMappingURL=kathlynn.css.map */
