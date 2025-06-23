@@ -217,7 +217,9 @@ textarea {
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
-  padding-bottom: 200px; }
+  padding-bottom: 200px; 
+background-color: #FAF7F2'
+}
 
 a {
   color: #4a4a4a;
