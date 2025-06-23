@@ -272,7 +272,7 @@ p.small {
 .portfolio-link a:hover {
    transform: translate(5px, 5px);
    box-shadow: none;
-   background-color: #DE74AC;
+   background-color: #4345C4;
    color: white;
    transition: all ease-in 0.2s;
 }
